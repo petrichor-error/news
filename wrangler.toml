@@ -5,7 +5,7 @@ compatibility_date = "2024-01-01"
 # After running: wrangler kv namespace create NEWSPAPER_KV
 # paste the "id" value it prints below
 kv_namespaces = [
-  { binding = "NEWSPAPER_KV", id = "PASTE_YOUR_KV_NAMESPACE_ID_HERE" }
+  { binding = "NEWSPAPER_KV", id = "5ab4bafe51b949d98dd9dab25b6621fb" }
 ]
 
 # The password itself is NOT set here — run this instead so it's encrypted:

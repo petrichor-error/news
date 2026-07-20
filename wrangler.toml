@@ -1,0 +1,12 @@
+name = "enewspaper-backend"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# After running: wrangler kv namespace create NEWSPAPER_KV
+# paste the "id" value it prints below
+kv_namespaces = [
+  { binding = "NEWSPAPER_KV", id = "PASTE_YOUR_KV_NAMESPACE_ID_HERE" }
+]
+
+# The password itself is NOT set here — run this instead so it's encrypted:
+#   wrangler secret put PUBLISHER_PASSWORD
